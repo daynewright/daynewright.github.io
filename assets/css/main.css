@@ -1798,7 +1798,6 @@
 	header p {
 		margin: 0 0 1.5em 0;
 		position: relative;
-		text-transform: uppercase;
 	}
 
 	header h2 + p {
@@ -3082,7 +3081,8 @@
 					.wrapper.style1 input[type="button"].alt:hover,
 					.wrapper.style1 button.alt:hover,
 					.wrapper.style1 .button.alt:hover {
-						background-color: #fff;
+						background-color: #51baa4;
+						color: #fff !important;
 					}
 
 					.wrapper.style1 input[type="submit"].alt:active,
@@ -3332,7 +3332,7 @@
 			background-color: #1E2832;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("../../images/pic11.jpg");
+			background-image: url("../images/overlay.png"), url("../images/coffee/coffee5.jpg");
 			background-size: cover;
 		}
 
@@ -3883,7 +3883,7 @@
 		background-color: #1E2832;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("../images/overlay.png"), url("../images/coffee/coffee4.jpg");
 		background-size: cover;
 		text-align: center;
 	}
